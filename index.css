@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+body {
+  background-color:  #700aa4;
+  text-align: center;
+}
+ul {
+  position: inline;
+  list-style-type: none;
+}
+
+header {
+  font-weight: bold; 
+  font-size: 24px;
+  text-align: center;
+  color: #f90491;
+}
+
+#navbar {
+  position: inline;
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 600px) {
+  #navbar {
+  background-color: none;
+  position: fixed;
+  height: auto;
+  width: auto;
+  /*   background-color: #f90491; */
+  color: blue;
+  align-text: left;
+  margin-top: 5vh;
+  }
+  ul {
+  list-style-type: none;
+  min-width: auto;
+  text-align: left;
+  }
+  li {
+  min-width: 150px; 
+  }
+}
+
+.nav-link {
+  color: #f90491;
+  text-decoration: none;
+  font-size: 24px;
+}
+#nav-link:visited {
+  color: #f90491
+}
+
+  
+ 
+#img-container {
+  margin-bottom: 5vh;
+  
+}
+#sub-container {
+  display: flex;
+  flex-direction: column;
+}
+#img {
+  
+  flex-direction: column;
+  border: 2px solid black;
+  text-align: center;
+}
+#img-sub {
+  font-size: .8em;
+  font-weight: bold;
+  text-align: center;
+}
+#title-case {
+  font-family: 'Luckiest Guy', cursive;
+  color: #35f904;
+  font-size: 60px;
+}
+#para-case {
+  font-family: 'Fredoka One', cursive;;
+  color:  #35f904;
+  font-size: 18px;
+}
+
+#main-doc {
+  border: 3px solid #f90491;
+  height: 100%;
+  
+}
+
+.main-section {
+  text-align: left;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-bottom: 5vh;
+}
